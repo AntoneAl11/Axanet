@@ -1,0 +1,11 @@
+name: Actualizar Cliente
+
+on:
+  workflow_dispatch:
+
+jobs:
+  notificar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Notificar actualización
+        run: echo "🔄 Cliente recurrente actualizado. Notificando a Antonio y Jorge."

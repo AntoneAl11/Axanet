@@ -1,0 +1,11 @@
+name: Consultar Cliente
+
+on:
+  workflow_dispatch:
+
+jobs:
+  notificar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Notificar consulta
+        run: echo "🔍 Consulta realizada. Notificando a Ana y Luis."
